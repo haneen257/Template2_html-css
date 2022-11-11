@@ -7,3 +7,38 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
+
+/* home */
+.parent {
+    background-color: #eee;
+}
+
+.container{
+    padding: 0 15px;
+    background-color: #aaa;
+    margin: 0 auto;
+}
+
+/* small */
+
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+}
+
+/* medium */
+
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}
+
+/* larg */
+
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
